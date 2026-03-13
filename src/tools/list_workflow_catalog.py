@@ -52,5 +52,5 @@ if __name__ == "__main__":
 
     load_dotenv()
 
-    result = list_workflow_catalog_apps.invoke({})
+    result = list_workflow_catalog.invoke({})
     print(result)
